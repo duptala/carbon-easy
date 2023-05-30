@@ -1,0 +1,486 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* outline: 1px dashed black; */
+  }
+
+  body {
+    width: 100vw;
+    height: 100vh;
+    background: rgb(255,224,210);
+background: linear-gradient(-5deg, rgba(255,224,210,1) 0%, rgba(255,129,81,1) 44%, rgba(252,67,0,1) 76%);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .custom-colour {
+    color: #fc4300 !important
+  }
+
+  .custom-background-colour {
+    background-color: #fc4300 !important
+  }
+
+  .main-container {
+    width: 95vw;
+    height: 95vh;
+    display: grid;
+    grid-template-rows: 11vh 1fr;
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .carbon-easy-logo {
+    width: 290px;
+  }
+
+  .navbar-list {
+    display: flex;
+    list-style: none;
+
+  }
+  .navbar-list li {
+    margin-right: 40px;
+   
+   
+  }
+  .navbar-list a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: padding 0.2s, font-size 1s;
+  }
+
+  .navbar-list a:hover {
+    text-decoration: underline;
+    padding: 1px;
+    font-size: 28px;
+  }
+
+  .findout-login-btns {
+    margin-right: 5px;
+  }
+
+  .findout-btn {
+    border-style: none;
+    padding: 20px 35px 20px 35px;
+    border-radius: 30px;
+    color: black;
+    background-color: #abff4f;
+    font-size: 26px;
+    margin-right: 12px;
+    transition: background-color 0.5s, color 0.5s;
+  }
+
+  .findout-btn:hover {
+    cursor: pointer;
+  }
+
+
+  .login-btn {
+    border-style: none;
+    padding: 20px 35px 20px 35px;
+    border-radius: 30px;
+    color: white;
+    background-color: #1d1d1d;
+    font-size: 26px;
+  }
+
+  .login-btn:hover {
+    cursor: pointer;
+  }
+
+  .content {
+    display: grid;
+    grid-template-columns: 60vw 1fr;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+  }
+
+
+  .left-content {
+    display:grid;
+    grid-template-rows: 60% 40%;
+  }
+
+  .landing-section {
+    border-radius: 20px;
+    scale: 99%;
+    background: rgb(255,224,210);
+    background: linear-gradient(-14deg, #ffa582 0%, rgba(252,67,0,1) 80%);
+  }
+
+  .landing-slogan{
+    font-size: 115px;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    position: relative;
+    top: 30px;
+    left: 46px;
+    color: #f9ff8e;
+  }
+
+  .call-to-action-btn {
+    padding: 30px 60px;
+    border-radius: 60px;
+    font-size: 48px;
+    border-style: none;
+    background-color: #1d1d1d;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #abff4f;
+    position: relative;
+    top: 0px;
+    left: 390px;
+  }
+
+  .call-to-action-btn:hover {
+    cursor: pointer;
+  }
+
+  .left-feet-design {
+    width: 300px;
+    position: relative;
+    right: 280px;
+    top: 60px;
+  }
+  
+  .right-feet-design {
+    width: 300px;
+    position: relative;
+    left: 140px;
+    top: 60px;
+  }
+
+  .website-information {
+    border-radius: 20px;
+    scale: 99%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .website-information p {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-left: 110px;
+    margin-top: -15px;
+    font-weight: 700;
+  }
+
+  .who-we-are {
+    background-color: #fdf0e0;
+    border-radius: 20px;
+    scale: 99%;
+    color: #0a63a2;
+  }
+
+  .who-we-are-img {
+    width: 120px;
+    height: 120px;
+    margin-left: 140px;
+  }
+
+
+  .our-mission {
+    background-color: #fdf0e0;
+    border-radius: 20px;
+    scale: 99%;
+    color: #00A058;
+  }
+
+  .mission-img {
+    width: 120px;
+    height: 120px;
+    margin-left: 142px;
+  }
+
+  .calculator {
+    background-color: #fdf0e0;
+    border-radius: 20px;
+    scale: 99%;
+    color: #e00048;
+  }
+
+  .calculator-img {
+    width: 120px;
+    height: 120px;
+    margin-left: 135px;
+  }
+
+  .whoarewe-desc {
+    color: #1f1e1e;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 95%;
+    font-size: 24px;
+    margin-left: 11px;
+    margin-top: 5px;
+  }
+
+  .mission-desc{
+    color: #1f1e1e;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 95%;
+    font-size: 24px;
+    margin-left: 16px;
+    margin-top: 5px;
+  }
+
+  .calculator-desc {
+    color: #1f1e1e;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 95%;
+    font-size: 24px;
+    margin-left: 17px;
+    margin-top: 5px;
+  }
+
+  .findoutmore {
+    position: absolute;
+    bottom: 18px;
+    right: 25px;
+    font-size: 22px;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  }
+
+  .findoutmore:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  .right-content {
+    display:grid;
+    grid-template-rows: 60% 40%;
+  }
+
+  .supporting-image {
+    scale: 99%;
+    border-radius: 20px; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+  }
+
+  .circles {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .dots {
+    display: flex;
+    height: 20px;
+    width: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    position: relative;
+    bottom: 40px;
+  }
+
+  .dots:hover {
+    cursor: pointer;
+  }
+
+  .fill-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 20px; 
+  }
+
+  .statistics {
+    scale: 99%;
+    border-radius: 20px; 
+    background: rgb(255,224,210);
+    background: linear-gradient(-10deg,  #ffe0d2 0%,  rgba(255,224,210,1) 20%, #fea888 100%);
+  }
+
+  .tests{
+    position: absolute;
+    top: 115px;
+    left: 45px;
+  }
+
+  .tests-number {
+    font-size: 60px;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+  }
+
+  .tests-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin-left: 88px;
+  }
+
+  .trees{
+    position: absolute;
+    top: 115px;
+    right: 38px;
+  }
+
+  .tree-icon {
+    width: 100px;
+  }
+
+  .tree-number {
+    font-size: 60px;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+  }
+
+  .tree-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin-left: 32px;
+  }
+
+  .progress-bar {
+    width: 520px;
+    height: 60px;
+    border-radius: 90px;
+    background-color: #3c3c3c;
+    position: absolute;
+    bottom: 60px;
+    left: 62px;
+  }
+
+  .current-progress {
+    width: 350px;
+    height: 60px;
+    border-radius: 90px;
+  }
+
+  .progress-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    position: absolute;
+    top: 14px;
+    left: 72px;
+  }
+
+  .quiz-icon {
+    width: 100px;
+    position: absolute;
+    top: 0;
+    left: 150px;
+    top: 1.1em;
+  }
+
+  .tree-icon {
+    width: 100px;
+    position: absolute;
+    top: 0;
+    left: 450px;
+    top: 0.75em;
+  }
+  
+  /* Modal stuff */
+input, label, h3 {
+  font-family: Arial, sans-serif;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: none;
+    background-color: rgba(0,0,0,0.6);
+    backdrop-filter: blur(30px);
+    animation: blurBG 0.5s;
+    animation-iteration-count: 1;
+
+}
+
+@keyframes blurBG {
+  from {backdrop-filter: blur(0px);}
+  to {backdrop-filter: blur(30px);}
+}
+
+.modal-content {
+  background-color: #222222;
+  padding: 1.5vh 1vw;  
+  margin: 5vh auto;
+  width: 35%;
+  max-height: 90vh; 
+  overflow-y: none; 
+  border-radius: 25px;  
+  position: relative;
+  animation: modalOpen 0.4s;
+  animation-iteration-count: 1; 
+  box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.15);
+}
+
+@keyframes modalOpen { 
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
+.close {
+  color: #aaa;
+  position: absolute;
+  right: 30px;
+  top: 8px;
+  font-size: 50px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#userInfo, #addressInfo, #contactInfo {
+  margin-bottom: 2.65em; 
+}
+
+
+label {
+  color: #ffffff;
+  font-size: 1.42em; 
+  margin-top: 0.5em; 
+}
+
+input[type='text'], input[type='password'], input[type='tel'], input[type='email'] {
+  padding: 0.5em;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 0.7em;
+  width: 100%;
+  box-sizing: border-box;
+  outline: none;
+  font-size: 1.2em;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+h3 {
+  font-size: 1.55em;
+  margin-bottom: 0.2em;
+}
+
+input[type='text']:focus, input[type='email']:focus, input[type='password']:focus, input[type='tel']:focus {
+  background-color: #eeeeee;
+}
+
+input[type="submit"] {
+  color: #222222;
+  border: none;
+  padding: 14px 30px;
+  cursor: pointer;
+  font-size: 1.3em;
+  border-radius: 30px;
+  margin: 0 auto;
+  display: block;
+}
+
+input[type="submit"]:hover {
+  background-color: #e83700;
+}
