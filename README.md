@@ -5,7 +5,6 @@ This project presents a high fidelity prototype for a landing page and registrat
 # Technologies Used
 HTML
 CSS
-JavaScript
 
 # Design Theme
 The assigned color for this project was #fc4300, which is why there's a consistent red color theme throughout the interface.
